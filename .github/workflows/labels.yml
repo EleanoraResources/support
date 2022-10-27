@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/setup-node@v2
         with:
-          node-version: "16"
-      - uses: EleanoraResources/gh-action-open-source-labels@main
+          node-version: "14"
+      - uses: EddieHubCommunity/gh-action-open-source-labels@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           owner-name: ${{ github.repository_owner }}
